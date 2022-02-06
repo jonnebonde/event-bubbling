@@ -18,3 +18,42 @@ button {
     margin-top: 1rem;
     padding: 1rem;
 }
+
+.container {
+    border: 1px #999 solid;
+    padding: 1rem;  
+    background-color: aliceblue;
+}
+
+.container div {
+    border: 1px #999 solid;
+    padding: 1rem; 
+    margin-bottom: .5rem; 
+    background-color: aliceblue;
+}
+
+.hover {
+    background: red;
+}
+
+.containermouse {
+    display: flex;
+}
+
+.containermouse > div {
+    display: flex;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin: .2rem;
+}
+
+.containerevent {
+    display: flex;
+}
+
+.containerevent > div {
+    display: flex;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin: .2rem;
+}
